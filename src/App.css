@@ -1,3 +1,5 @@
+
+
 .primer-logo {
   
     background: url(https://www.yourprimer.com/assets/img/primer-logo@2x.png) no-repeat top center;
@@ -55,74 +57,50 @@ float: left;
  
 }
 
+.foreground-layer1{
+  height:750px;
+}
+.sections{
+  margin-top:-6.5em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*=======SECTİON1 ======*/  
 
 .Section1{
+
   display:flex;
   flex-direction:row-reverse;
 }
-.texts-1{
-  left:0;
-}
 
 
-
-  
 
 
 /*  Paper */
 
-.background-layer{
+.background-layer1{
   width: 100%;
     height: 100%;
     position: absolute;
+
     z-index: 10;
 
 }
 
-.scene-wrapper{
+.scene-wrapper1{
   display:flex;
   flex-direction:row;
 width: 100%;
   position: absolute;
+  
   overflow: hidden;
 } 
 
-.paper-img{
+.paper-img1{
 position: relative;
 height:100%;
 
 }
-.inside-bg{
+.inside-bg1{
   position: absolute;
   height: 100%;
   width: 715px;
@@ -134,19 +112,19 @@ height:100%;
 }
 
 /* Google Phone*/
-.device-frame{
+.device-frame1{
 
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
+    
     text-align: center;
    z-index: 30;
 
 }
 
 
-.device-wrapper{
+.device-wrapper1{
   display:flex;
   flex-direction:row;
   width: 100%;
@@ -156,12 +134,187 @@ height:100%;
   justify-items: center;
 } 
 
-.google-phone{
+.google-phone1{
 position: relative;
 height:100%;  
 
 }
-.inside-img{
+.inside-img1{
+  position: absolute;
+  top:50px;
+  height: 400px;
+  width: 214px; 
+  left:42%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+ 
+  
+}
+
+/*==================SECTİON2 =======*/
+.foreground-layer2{
+  height:750px;
+}
+.Section2{
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content: flex-end;
+}
+
+
+
+/*  Paper */
+
+.background-layer2{
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.scene-wrapper2{
+  display:flex;
+  flex-direction:row;
+   width: 100%;
+  position: absolute;
+   overflow: hidden;
+   padding-left:45%;
+
+   
+} 
+
+.paper-img2{
+position: relative;
+height:100%;
+
+}
+.inside-bg2{
+  position: absolute;
+  height: 100%;
+  width: 715px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+ 
+  
+}
+
+/* Google Phone*/
+.device-frame2{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+    text-align: center;
+   z-index: 30;
+
+}
+
+
+.device-wrapper2{
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  justify-content:center;
+  justify-items: center;
+} 
+
+.google-phone2{
+position: relative;
+height:100%;  
+
+}
+.inside-img2{
+  position: absolute;
+  top:50px;
+  height: 400px;
+  width: 214px; 
+  left:42%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+ 
+  
+}
+
+/*=============SECTION3 =============*/
+
+.Section3{
+  display:flex;
+  flex-direction:row-reverse;
+}
+
+
+
+
+/*  Paper */
+
+.background-layer3{
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.scene-wrapper3{
+  display:flex;
+  flex-direction:row;
+width: 100%;
+  position: absolute;
+  overflow: hidden;
+} 
+
+.paper-img3{
+position: relative;
+height:100%;
+
+}
+.inside-bg3{
+  position: absolute;
+  height: 100%;
+  width: 715px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+ 
+  
+}
+
+/* Google Phone*/
+.device-frame3{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+    text-align: center;
+   z-index: 30;
+
+}
+
+
+.device-wrapper3{
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  justify-content:center;
+  justify-items: center;
+} 
+
+.google-phone3{
+position: relative;
+height:100%;  
+
+}
+.inside-img3{
   position: absolute;
   top:50px;
   height: 400px;
