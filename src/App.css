@@ -1,3 +1,91 @@
+.primer-logo {
+  
+    background: url(https://www.yourprimer.com/assets/img/primer-logo@2x.png) no-repeat top center;
+    background-position: bottom center;
+    background-size: 100px 64px;
+    margin-top: 0;
+    width: 100px;
+    height: 32px;
+    display: block;
+    transition: opacity .25s;
+    -webkit-transition: opacity .25s;
+    text-indent: 500%;
+    white-space: nowrap;
+    overflow: hidden;
+float: left;
+
+
+}
+
+.nav-link {
+  color: #546E7C;
+  display: inline-block;
+  height: 48px;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  padding: 15px 1px 10px;
+  margin: 0 10px 0 5px;
+  background: 0 0;
+  border-bottom: 4px solid #fff;
+  -webkit-transition: border-bottom .3s;
+  transition: border-bottom .3s;
+}
+.-download{
+ 
+    color: #546E7C;
+    font-size: 14px;
+    line-height: 40px;
+   
+    float: left;
+    margin: 0 10px 0 0;
+    text-transform: uppercase;
+    pointer-events: none;
+    letter-spacing: .5px;
+
+}
+.icons{
+  color:blue !important;
+  font-size:2em;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  display: inline-block;
+  float: left;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Section1{
   display:flex;
   flex-direction:row-reverse;

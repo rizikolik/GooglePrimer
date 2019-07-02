@@ -29,14 +29,14 @@ render(){
       </li>
     </ul>
     <ul className="navbar-nav ml-auto">
-      <li className="nav-item">
+      <li className="nav-item -download">
       <p>DOWNLOAD THE APP</p>
       </li>
       <li className="nav-item">
-        <a className="nav-link active" href="#"><i class="fab fa-android"></i></a>
+        <a className="nav-link active icons" href="#"><i class="fab fa-android"></i></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i class="fab fa-apple"></i></a>
+        <a className="nav-link active icons" href="#" tabindex="-1" aria-disabled="true"><i class="fab fa-apple"></i></a>
       </li>
     </ul>
   </div>
