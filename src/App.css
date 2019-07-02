@@ -1,6 +1,9 @@
-.foreground-layer{
-  display:none;
+.Section1{
+  display:inline;
 }
+
+
+
 
 
 
@@ -46,15 +49,33 @@ height:100%;
 }
 
 /* Google Phone*/
-.inside-img,.google-phone{
-  width:300px;
+.device-frame{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+   z-index: 30;
+
 }
 
+.device-wrapper{
+  display:inline-block;
+}
+
+
+
+
 .inside-img{
-  position:absolute;
-  width:100;
+ 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 .google-phone{
   position: relative;
-  width:100%;
+  
 }

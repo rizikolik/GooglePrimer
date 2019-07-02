@@ -19,7 +19,17 @@ class Section1 extends React.Component{
                     </div>
                  </div>
              </div>
-             <div className="foreground-layer">
+            
+          
+            <div className="device-frame" style={{opacity: 1}}>
+              <div className="device-wrapper" style={{marginTop: 194.329}}>
+                <img className="google-phone" src="https://www.yourprimer.com/assets/img/pixel-phone.png" style={{width:276, opacity: 1 }}/>
+                    
+                        <img className="inside-img" src="https://www.yourprimer.com/assets/img/slides/slide-1_website_lesson_en.jpg" style={{opacity: 1 }}/>
+                        
+                     </div>
+                </div>
+                <div className="foreground-layer">
                 <div className="copy-wrapper" style={{height: 900}}>
               
                       <div className="" data-slide="0" style={{width:402, marginTop:279.5}}>
@@ -28,15 +38,6 @@ class Section1 extends React.Component{
                         </div>
                       </div>
                     </div>
-          
-            <div className="device-frame" style={{opacity: 1}}>
-              <div className="device-wrapper" style={{marginTop: 194.329}}>
-                <img className="google-phone" src="https://www.yourprimer.com/assets/img/pixel-phone.pn" style={{width:276, opacity: 1 }}/>
-                    <div className="phone-inside-container" style={{visibility: "visible",top: 0}}>
-                        <img className="inside-img" src="https://www.yourprimer.com/assets/img/slides/slide-1_website_lesson_en.jp" style={{opacity: 1 }}/>
-                        </div>
-                     </div>
-                </div>
             </div>
             );
     }
