@@ -1,214 +1,60 @@
-.App {
-  text-align: center;
+.foreground-layer{
+  display:none;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+.copy-wrapper{
+  width:200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.primer-logo {
-  background: url("https://www.yourprimer.com/assets/img/primer-logo@2x.png" ) no-repeat top center;
-  background-position: bottom center;
-  background-size: 100px 64px;
-  margin-top: 0;
-  width: 100px;
-  height: 32px;
-  display: block;
-  transition: opacity .25s;
-  -webkit-transition: opacity .25s;
- 
-    text-indent: 500%;
-    white-space: nowrap;
-    overflow: hidden;
 
   
-}
 
-.header {
-  color: #546E7C;
-  display: inline-block;
-  height: 48px;
-  font-size: 16px;
-  line-height: 16px;
-  text-decoration: none;
-  padding: 8px 1px 10px;
-  margin: 10px 10px 0 5px;
-  background: 0 0;
-  border-bottom: 4px solid #fff;
-  -webkit-transition: border-bottom .3s;
-  transition: border-bottom .3s;
-  vertical-align: bottom;
-}
 
-.device-frame {
+/*  Paper */
+
+.background-layer{
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  text-align: center;
-  z-index: 30;
-}
-.device-wrapper {
-  position: relative;
-  text-align: center;
-  display: inline-block;
-  margin: auto;
-}
- .img-slides {
-  position: absolute;
-  width: 77%;
-  height: 73.1%;
-  left: 11%;
-  top: 13%;
-  overflow: hidden;
-}
-
-
-.main-home .background-layer {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 10;
-}
-.phone-inside-container{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 100%;
-}
-.inside-img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.background-img{
-  right: 51%;
-    background-color: #007c91;
+    height: 100%;
     position: absolute;
-    height: 99%;
-    width: 200%;
-    margin: .5%;
+    z-index: 10;
+
 }
 
+.scene-wrapper{
+  display:flex;
+  flex-direction:row;
+width: 100%;
+  position: absolute;
+  overflow: hidden;
+} 
 
+.paper-img{
+position: relative;
+height:100%;
 
+}
 .inside-bg{
-  right: -.6%;
-  height: 100%;
-  width: auto;
   position: absolute;
+  height: 100%;
+  width: 715px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-.filler {
-  height: 100%;
-  overflow: hidden;
-  width: 100%;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  background: #f5f5f5 url(https://www.yourprimer.com/assets/img/bg-tile.jpg);
-}
-.scene-window {
-  height: 100%;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-.paper-img {
-  height: 100%;
-  width:50%;
   
+ 
+  
+}
+
+/* Google Phone*/
+.inside-img,.google-phone{
+  width:300px;
+}
+
+.inside-img{
+  position:absolute;
+  width:100;
+}
+.google-phone{
   position: relative;
-float:left;
-}
- .foreground-layer {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 20;
-}
-.copy-frame {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  float: left;
-  z-index: 4;
-}
-.copy-section {
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-}
- .copy-wrapper {
-  height: 580px;
-  position: relative;
-  margin: auto;
-}
- .section-fg {
-  position: absolute;
-  height: 100%;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-.main-home .foreground-layer .copy-frame .copy-section .spacer {
-  height: 100%;
-  position: relative;
-  margin-left: 50%;
-}
-.main-home .foreground-layer .copy-frame .copy-section .section-fg .filler {
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-  width: 300%;
-}
-.main-home .foreground-layer .copy-frame .copy-section .text-slide.right-placement {
-  margin-left: 26%;
-  max-width: 66%;
-}
-.main-home .foreground-layer .copy-frame .copy-section .text-slide .js-animate-this {
-  opacity: 0;
-}
-.main-home .foreground-layer .copy-frame .copy-section .text-slide h2 {
-  margin-bottom: 25px;
-}
-.main-home .foreground-layer .copy-frame .copy-section .content-text p {
-  font-size: 16px;
-  line-height: 1.4;
+  width:100%;
 }
